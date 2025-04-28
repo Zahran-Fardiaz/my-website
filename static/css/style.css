@@ -129,6 +129,7 @@ section img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     float: left;
     margin-right: 15px;
+    margin-top: 15px;
 }
 
 section img:hover {
