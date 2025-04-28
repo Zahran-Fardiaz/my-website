@@ -13,6 +13,12 @@ header {
     text-align: left;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header:hover {
+    background-color: #292929; /* Slightly lighter on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -29,6 +35,12 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1); /* Adjusted border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -73,3 +85,28 @@ nav ul li a:hover {
     text-decoration: underline;
     color: #64b5f6; /* Light blue on hover */
 }
+
+button {
+    background-color: #64b5f6; /* Light blue */
+    color: #121212; /* Dark text */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #bbdefb; /* Lighter blue */
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+}
+
