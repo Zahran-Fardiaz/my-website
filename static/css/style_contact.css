@@ -2,12 +2,13 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d6d6d6;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 header {
-    background-color: #757575;
-    color: #888888;
+    background-color: #1f1f1f; /* Darker header */
+    color: #e0e0e0; /* Light text color */
     padding: 1rem;
     text-align: left;
     backdrop-filter: blur(10px);
@@ -23,15 +24,15 @@ section {
     text-align: left;
     margin: 1rem auto;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle dark background */
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Adjusted border */
 }
 
 h2 {
-    color: #333;
+    color: #ffffff; /* White for headings */
 }
 
 p {
@@ -41,11 +42,12 @@ p {
 }
 
 a {
-    color: #9dcfff;
+    color: #64b5f6; /* Light blue for links */
     text-decoration: none;
 }
 
 a:hover {
+    color: #bbdefb; /* Lighter blue on hover */
     text-decoration: underline;
 }
 
@@ -64,13 +66,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #e0e0e0; /* Light text for nav links */
 }
 
 nav ul li a:hover {
+    color: #64b5f6; /* Light blue on hover */
     text-decoration: underline;
 }
 
-a {
-    color: #0048ff;
-}
