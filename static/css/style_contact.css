@@ -2,13 +2,13 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text color */
+    background-color: #181818; /* Slightly lighter dark background */
+    color: #d4d4d4; /* Softer light text color */
 }
 
 header {
-    background-color: #1f1f1f; /* Darker header */
-    color: #e0e0e0; /* Light text color */
+    background-color: #242424; /* Softer dark header */
+    color: #f0f0f0; /* Brighter text color */
     padding: 1rem;
     text-align: left;
     backdrop-filter: blur(10px);
@@ -17,7 +17,7 @@ header {
 }
 
 header:hover {
-    background-color: #292929; /* Slightly lighter on hover */
+    background-color: #2e2e2e; /* Slightly lighter on hover */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,11 +30,11 @@ section {
     text-align: left;
     margin: 1rem auto;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.05); /* Subtle dark background */
+    background-color: rgba(255, 255, 255, 0.08); /* Slightly brighter background */
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Adjusted border */
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Softer border */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -44,7 +44,7 @@ section:hover {
 }
 
 h2 {
-    color: #ffffff; /* White for headings */
+    color: #f5f5f5; /* Softer white for headings */
 }
 
 p {
@@ -54,12 +54,12 @@ p {
 }
 
 a {
-    color: #64b5f6; /* Light blue for links */
+    color: #76c7f2; /* Softer blue for links */
     text-decoration: none;
 }
 
 a:hover {
-    color: #bbdefb; /* Lighter blue on hover */
+    color: #a3d8f7; /* Softer lighter blue on hover */
     text-decoration: underline;
 }
 
@@ -78,11 +78,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #e0e0e0; /* Light text for nav links */
+    color: #d4d4d4; /* Softer light text for nav links */
 }
 
 nav ul li a:hover {
-    color: #64b5f6; /* Light blue on hover */
+    color: #76c7f2; /* Softer blue on hover */
     text-decoration: underline;
 }
 
@@ -92,8 +92,8 @@ nav ul li a:focus {
 }
 
 button {
-    background-color: #64b5f6; /* Light blue */
-    color: #121212; /* Dark text */
+    background-color: #76c7f2; /* Softer blue */
+    color: #181818; /* Slightly lighter dark text */
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -102,7 +102,7 @@ button {
 }
 
 button:hover {
-    background-color: #bbdefb; /* Lighter blue */
+    background-color: #a3d8f7; /* Softer lighter blue */
     transform: scale(1.05);
 }
 
@@ -114,8 +114,9 @@ button:focus {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #1f1f1f;
-    color: #e0e0e0;
+    background-color: #242424; /* Softer dark footer */
+    color: #d4d4d4; /* Softer light text */
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 2rem;
 }
+
