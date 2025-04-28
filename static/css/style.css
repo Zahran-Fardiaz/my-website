@@ -2,13 +2,13 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #181818; /* Slightly lighter dark background */
-    color: #d4d4d4; /* Softer light text color */
+    background-color: #181818;
+    color: #d4d4d4;
 }
 
 header {
-    background-color: #242424; /* Softer dark header */
-    color: #f0f0f0; /* Brighter text color */
+    background-color: #242424;
+    color: #f0f0f0;
     padding: 1rem;
     text-align: left;
     backdrop-filter: blur(10px);
@@ -17,7 +17,7 @@ header {
 }
 
 header:hover {
-    background-color: #2e2e2e; /* Slightly lighter on hover */
+    background-color: #2e2e2e;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,21 +30,21 @@ section {
     text-align: left;
     margin: 1rem auto;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.08); /* Slightly brighter background */
+    background-color: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.15); /* Softer border */
+    border: 1px solid rgba(255, 255, 255, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section:hover {
-    transform: scale(1.02); /* Slight zoom effect */
+    transform: scale(1.02);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    color: #f5f5f5; /* Softer white for headings */
+    color: #f5f5f5;
 }
 
 p {
@@ -54,12 +54,12 @@ p {
 }
 
 a {
-    color: #76c7f2; /* Softer blue for links */
+    color: #76c7f2;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a3d8f7; /* Softer lighter blue on hover */
+    color: #a3d8f7;
     text-decoration: underline;
 }
 
@@ -78,22 +78,22 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #d4d4d4; /* Softer light text for nav links */
+    color: #d4d4d4;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: #76c7f2; /* Softer blue on hover */
+    color: #76c7f2;
 }
 
 nav ul li a:focus {
-    outline: 2px solid #64b5f6; /* Focus outline for accessibility */
+    outline: 2px solid #64b5f6;
     outline-offset: 2px;
 }
 
 button {
-    background-color: #76c7f2; /* Softer blue */
-    color: #181818; /* Slightly lighter dark text */
+    background-color: #76c7f2;
+    color: #181818;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -102,20 +102,20 @@ button {
 }
 
 button:hover {
-    background-color: #a3d8f7; /* Softer lighter blue */
+    background-color: #a3d8f7;
     transform: scale(1.05);
 }
 
 button:focus {
-    outline: 2px solid #64b5f6; /* Focus outline for buttons */
+    outline: 2px solid #64b5f6;
     outline-offset: 2px;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #242424; /* Softer dark footer */
-    color: #d4d4d4; /* Softer light text */
+    background-color: #242424;
+    color: #d4d4d4;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 2rem;
 }
